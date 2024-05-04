@@ -1,0 +1,133 @@
+.backgroundHero {
+  position: relative;
+  overflow: hidden;
+  width: 1440px;
+  height: 1090px;
+  left: 0%;
+  top: 0%;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 1;
+}
+
+/* Patterns rectangle */
+.pattern {
+  position: absolute;
+  left: -18.24%;
+  right: 21.31%;
+  top: 9.18%;
+  bottom: -1.53%;
+}
+
+.rectangle_38 {
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  position: absolute;
+  rotate: -10deg;
+  z-index: 2;
+  left: 8%;
+  right: -20.78%;
+  top: 0.18%;
+  bottom: 67.62%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.rectangle_09 {
+  position: absolute;
+  left: 107.62%;
+  right: -24%;
+  top: 1.68%;
+  bottom: 92.3%;
+  rotate: -7deg;
+  z-index: 2;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0) 6.72%,
+    rgba(0, 151, 254, 0.86) 28.5%
+  );
+}
+
+.rectangle_08 {
+  position: absolute;
+  left: 17.11%;
+  right: 50.82%;
+  top: 71.19%;
+  bottom: 21.79%;
+  z-index: 1;
+  rotate: -14deg;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0) 8.72%,
+    rgba(0, 151, 254, 0.86) 91.5%
+  );
+  transform: rotate(2.05deg);
+}
+
+.rectangle_10 {
+  position: absolute;
+  left: 72.11%;
+  right: -22.36%;
+  top: 15.51%;
+  bottom: 47.85%;
+  z-index: 1;
+  background: linear-gradient(
+    277.47deg,
+    rgba(0, 151, 254, 0.08) 8.72%,
+    rgba(0, 151, 254, 0.04) 91.5%
+  );
+}
+
+/* Glow Section CSS */
+.glow {
+  position: absolute;
+  left: -4.52%;
+  right: 17.14%;
+  top: -25.81%;
+  bottom: 51.24%;
+}
+
+.rectangle_34 {
+  position: absolute;
+  left: -4.52%;
+  right: 51.06%;
+  top: -10.55%;
+  bottom: -2.76%;
+  z-index: 1;
+
+  background: linear-gradient(
+    101.06deg,
+    rgba(5, 137, 240, 0.7) 7.54%,
+    rgba(5, 137, 240, 0.7) 72.97%
+  );
+  filter: blur(123px);
+}
+
+.rectangle_35 {
+  position: absolute;
+  left: 80.59%;
+  right: -19.86%;
+  top: 35.65%;
+  bottom: 2.89%;
+  z-index: 1;
+  background: linear-gradient(
+    109.87deg,
+    rgba(5, 137, 240, 0.6) -15.54%,
+    rgba(177, 78, 223, 0.6) 83.66%
+  );
+  filter: blur(67.5px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.BG_01 {
+  position: absolute;
+  left: -2.5%;
+  right: -12%;
+  top: -14%;
+  bottom: 30%;
+  transform-origin: bottom center;
+  transform: rotate(-12deg);
+  background: linear-gradient(83.62deg, #1b45b4 3.5%, #1c2792 96.85%);
+}
